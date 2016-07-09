@@ -3,9 +3,9 @@ RSS/Atom news client to read blogs
 
 Currently, I am using [Feedly](http://feedly.com/). At one time, there was a serious deficient in RSS/Atom Linux readers. This client was even featured in [OMG Ubuntu](http://www.omgubuntu.co.uk/2009/06/eatfeed-simple-desktop-rss-reader).
 
-![screenshot](https://github.com/rpmcruz/tagmail/raw/master/screenshot.png "Screenshot")
+![screenshot](https://github.com/rpmcruz/eatfeed/raw/master/screenshot.png "Screenshot")
 
-For more information, see the old [README](https://github.com/rpmcruz/tagmail/raw/master/README).
+For more information, see the old [README](https://github.com/rpmcruz/eatfeed/raw/master/README).
 
 **Requirements:** C++ compiler (gcc) and GTK+2.
 

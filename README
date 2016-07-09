@@ -1,0 +1,36 @@
+EatFeed
+
+And alas that out of frustration yet another feed aggregator is born.
+I was previously using RSSOwl (despite the bloat, it worked fine), but
+got broken from using a different Java vendor. Liferea never worked for
+me.
+
+EatFeed is thus a bare bones feed aggregator.
+
+Requirements:
+	curl, gtk2, and either webkit or libgtkhtml
+	(including -devel packages.)
+
+	Don't confuse libgtkhtml, aka libgtkhtml-2.0, with its sister
+	library gtkhtml2, aka libgtkhtml-3.14.
+	WebKit-gtk is recommended since libgtkhtml doesn't support some
+	basic tags like <strike>, neither does utf-8 charset.
+
+Hidden features:
+
+	o --hide option: useful for a startup launch. (check --help for
+	  more options).
+
+	o you can subscribe to a feed from Firefox. Since we don't lock
+	  the program into a single instance however, you should exit any
+	  running instance before subscribing from the browser.
+
+	o besides the visible "add feed" button, you may edit the feeds
+	  bar by pressing right-click to remove, double-click to edit label,
+	  and drag-and-drop to better position them.
+
+	o feeds will be refreshed every 30 mins. The icon gets brighter when
+	  unread news are available and blinks for a seconds as news arrive.
+
+-- Ricardo Cruz <rpmcruz@alunos.dcc.fc.up.pt>, May 2009
+

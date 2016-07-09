@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Eat Feed
+GenericName=Feed Reader
+Comment=Download and view feeds
+Exec=eatfeed
+Icon=liferea
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;X-SuSE-RSS-News;
+
